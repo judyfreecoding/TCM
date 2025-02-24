@@ -11,9 +11,9 @@ export default defineConfig({
       { text: '讲师介绍', link: '/zhouJiaRong' },
       { text: '中医原理', link: '/tcmPrinciple' },
       { text: '按摩方法', link: '/massageMethod' },
-      { text: '落藏', link: '/diseaseSource' },
+      { text: '落藏理论', link: '/diseaseSource' },
       { text: '五行理论', link: '/fiveElementsTheory' },
-      { text: '中医治病总结', link: '/summary' },
+      { text: '治病总结', link: '/cureSummary' },
       { text: '附录', link: '/addendum' }
     ],
 
@@ -45,7 +45,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '落藏',
+        text: '落藏理论',
         items: [
           { text: '肺（大肠）', link: '/DS_lungs' },
           { text: '脾（胃）', link: '/DS_spleen' },
@@ -57,43 +57,43 @@ export default defineConfig({
       {
         text: '五行理论',
         items: [
-          { text: '表里关系', link: '/markdown-examples' },
-          { text: '相生关系', link: '/api-examples' },
-          { text: '相克关系', link: '/api-examples' },
-          { text: '别通关系', link: '/api-examples' },
-          { text: '三角关系', link: '/api-examples' },
-          { text: '四边关系', link: '/api-examples' },
-          { text: '一统天下', link: '/api-examples' },
-          { text: '如何运用五行理论', link: '/api-examples' },
-          { text: '五行理论应用实例', link: '/api-examples' }
+          { text: '表里关系', link: '/five_outside&inner' },
+          { text: '相生关系', link: '/five_feed' },
+          { text: '相克关系', link: '/five_balance' },
+          { text: '别通关系', link: '/five_other' },
+          { text: '三角关系', link: '/five_triangle' },
+          { text: '四边关系', link: '/five_foursides' },
+          { text: '一统天下', link: '/five_unitary' },
+          { text: '如何运用五行理论', link: '/five_howToUse' },
+          { text: '五行理论应用实例', link: '/five_example' }
         ]
       },
       {
-        text: '中医治病总结',
+        text: '治病总结',
         items: [
-          { text: '病在哪里', link: '/markdown-examples' },
-          { text: '治哪里', link: '/api-examples' },
-          { text: '怎么治', link: '/api-examples' }
+          { text: '病在哪里', link: '/cureSummary' },
+          { text: '治哪里', link: '/cureSummary' },
+          { text: '怎么治', link: '/cureSummary' }
         ]
       },
       {
         text: '附录',
         items: [
-          { text: '经筋十大要穴', link: '/markdown-examples' },
-          { text: '传统经脉要穴', link: '/api-examples' },
-          { text: '原穴', link: '/api-examples' },
-          { text: '常用药', link: '/api-examples' },
-          { text: '宗筋疗法讲义', link: '/zongJinLiaoFaJiangYi' },
-          { text: '宗筋疗法笔记一', link: '/zongJinLiaoFaBiJi1' },
-          { text: '炙绳笔记', link: '/z_jiusheng' },
-          { text: '生气的害处', link: '/shengqi' }
+          { text: '经筋十大要穴', link: '/addendum_tendonPoints10' },
+          { text: '传统经脉要穴', link: '/addendum_meridianPoints' },
+          { text: '常用药', link: '/addendum_commonlyUsedDrugs' },
+          { text: '宗筋疗法讲义', link: '/addendum_zongJinLiaoFaJiangYi' },
+          { text: '宗筋疗法笔记一', link: '/addendum_zongJinLiaoFaBiJi1' },
+          { text: '炙绳笔记', link: '/addendum_z_jiusheng' },
+          { text: '生气的害处', link: '/addendum_shengqi' }
         ]
       },
       {
-        text: '金刚经',
+        text: '佛经',
         items: [
-          { text: '金刚经原文', link: '/1_fo_jinGangJing' },
-          { text: '金刚经Judy注', link: '/1_fo_jinGangJingJudy' }
+          { text: '金刚经', link: '/1_fo_jinGangJing' },
+          { text: '金刚经Judy注', link: '/1_fo_jinGangJingJudy' },
+          { text: '妙法莲华经', link: '/1_fo_lianHuaJing' }
         ]
       }
     ],

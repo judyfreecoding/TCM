@@ -1,85 +1,31 @@
-# Markdown Extension Examples
+#  五行理论
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+中医认为，自然由五种基本元素组成，木火土金水，在人身体内亦然
 
-## Syntax Highlighting
+五行的应用，就是告诉我们落了藏以后治哪里。中医讲究辨症施治，疏其气血，令其条达，而至和平。<br>
+和，相生为和；平，相克为平。所以克不是克制打击，而是平衡。<br>
+中医对病的理解是不平衡则为病，平衡则为健康。所以对相克理论的运用是非常必要的。周老师用一个非洲大草原的例子来说明相克的必要性，非洲大草原上草、角马、狮子，就是一个平衡关系，如果草少了，说明角马多了，就要用狮去平衡；如果草少了就种草，其结果是角马更多，草还是少。<br>
+周老师这个例子就非常形象地说明了，为什么哪病了不治哪，因为治来治去都是好不了的，要治克的那个。<br>
+“疏其气血，令其条达，而至和平”这句话的意思是用相生相克相乘相侮的原理去疏通气血，使气血条达。<br>
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+|脏腑五行关系理论图示|
+|----|
+|![An image](/fiveElements.png)|
+|本图中显示了脏腑的五行、表里、相生、相克、三角关系。|
+|五行：五脏以五行元素为代表，心为火，脾为土，肺为金，肾为水，肝为木。扩展一下五味五色，苦入心，色赤；甘入脾，色黄；辛入肺，色白；咸入肾，色黑；酸入肝，色青。|
+|表里：指每个小圆内的一脏一腑，如心小肠、脾胃、肺大肠、肾膀胱、肝胆，这是指每个小系统内的阴阳关系，脏为阴，腑为阳；脏为里，腑为表。|
+|相生：五个小圆组成的顺时针方向的大圆为相生关系，分别是心火生脾土、脾土生肺金、肺金生肾水、肾水生肝木、肝木生心火。|
+|相克：五个小圆相间形成相克关系，分别是肝木克脾土、脾土克肾水、肾水克心火、心火克肺金、肺金克肝木。|
+|三角：生我者为我母，克我母者为我父，克我母者也即是我克者。这三个就是三角关系。三角关系说明了我克和生我这两者的特殊重要性。|
 
-**Input**
+<br>
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
+|相生相克关系图示|
+|----|
+|笔者用下图生动地说明了相生相克的关系：|
+|![An image](/grass&lion.png)|
+|从正向看，就是相生的方向，草生角马，角马生狮；所以它们的关系是：草荣则马荣，马荣则狮荣；草衰则马衰，马衰则狮衰。草和狮始终是正相关关系。<br>从逆向看，就是相克的方向，狮克角马，角马克草；所以它们的关系是：狮荣则马衰，马衰则草荣；狮衰则马荣，马荣则草衰。狮和草也始终是正相关关系。<br>草到角马到狮，狮到草，就形成了一个小系统。由草到狮，是相生；由狮到草，是相克。在这个小系统中，草和狮，狮和草，始终是正相关的。<br>中医将这种正看反看始终是正相关关系的双方叫做相克，即相克为平。<br>所以治病的理论也就出来了：<br>草衰了，补狮；狮衰了，补草。<br>万万不能草衰了种草。因为草衰的原因是狮少马多，种了草的结果是，马更多草更少；<br>也不能狮衰了补狮。因为狮衰的原因是草少马少，补了狮它还得饿死。<br><br>这就是相克关系的原理。相克关系之所以好用，是因为它暗含了相生关系。后面的三角关系实际上也是相克关系，它的理论是如果草衰了就施肥，如果施肥不管用就补狮，还是补狮。<br>三角关系的思路是先循上游找方案（草衰了就施肥），如果不行就循下游找方案（补狮）。<br>而实际上，如果一个环节出了问题，首当其冲受害的是其下游，所以更多的思路是从其下游去找解决方案，仲师也是这样讲的：“见肝之病,知肝传脾,当先实脾”，也是下游相克的理论。|
 
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.<span style='color:red'>ddd是d</span>
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](markdown-examples.md#custom-containers).
+<br>
+在脏腑五行关系理论中，一共有以下几种关系：<br>
+表里关系、相生关系、相克关系、别通关系，三角关系、四边关系、一统天下
