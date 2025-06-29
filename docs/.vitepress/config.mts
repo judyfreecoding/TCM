@@ -8,6 +8,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: '系统使用规范', link: '/sys_instructionsForUse' },
+      { text: '系统设计概要', link: '/sys_designSummary' },
       { text: '讲师介绍', link: '/zhouJiaRong' },
       { text: '中医原理', link: '/tcmPrinciple' },
       { text: '按摩方法', link: '/massageMethod' },
@@ -18,6 +20,18 @@ export default defineConfig({
     ],
 
     sidebar: [
+      {
+        text: '系统使用规范',
+        items: [
+          { text: '系统使用规范', link: '/sys_instructionsForUse' }
+        ]
+      },
+      {
+        text: '系统设计概要',
+        items: [
+          { text: '系统设计概要', link: '/sys_designSummary' }
+        ]
+      },
       {
         text: '讲师介绍',
         items: [
@@ -50,8 +64,8 @@ export default defineConfig({
           { text: '肺（大肠）', link: '/DS_lungs' },
           { text: '脾（胃）', link: '/DS_spleen' },
           { text: '心（小肠）', link: '/DS_heart' },
-          { text: '肝（胆）', link: '/DS_liver' },
-          { text: '肾（膀胱）', link: '/DS_kidney' }
+          { text: '肾（膀胱）', link: '/DS_kidney' },
+          { text: '肝（胆）', link: '/DS_liver' }
         ]
       },
       {
