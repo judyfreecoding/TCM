@@ -99,7 +99,8 @@ export default defineConfig({
           { text: '宗筋疗法讲义', link: '/addendum_zongJinLiaoFaJiangYi' },
           { text: '宗筋疗法笔记一', link: '/addendum_zongJinLiaoFaBiJi1' },
           { text: '炙绳笔记', link: '/addendum_z_jiusheng' },
-          { text: '生气的害处', link: '/addendum_shengqi' }
+          { text: '生气的害处', link: '/addendum_shengqi' },
+          { text: '按摩经', link: '/addendum_anmojing' }
         ]
       },
       {
