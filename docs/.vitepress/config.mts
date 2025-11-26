@@ -108,7 +108,9 @@ export default defineConfig({
         items: [
           { text: '金刚经', link: '/1_fo_jinGangJing' },
           { text: '金刚经Judy注', link: '/1_fo_jinGangJingJudy' },
-          { text: '妙法莲华经', link: '/1_fo_lianHuaJing' }
+          { text: '妙法莲华经', link: '/1_fo_lianHuaJing' },
+          { text: '佛说阿弥陀经', link: '/1_fo_eMiTuoJing' },
+          { text: '佛说观无量寿佛经', link: '/1_fo_guanWuLiangShouFoJing' }
         ]
       }
     ],
