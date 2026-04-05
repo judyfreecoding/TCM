@@ -100,7 +100,8 @@ export default defineConfig({
           { text: '宗筋疗法笔记一', link: '/addendum_zongJinLiaoFaBiJi1' },
           { text: '炙绳笔记', link: '/addendum_z_jiusheng' },
           { text: '生气的害处', link: '/addendum_shengqi' },
-          { text: '按摩经', link: '/addendum_anmojing' }
+          { text: '按摩经', link: '/addendum_anmojing' },
+          { text: '宗筋疗法AI笔记', link: '/meeting/1' }
         ]
       },
       {
@@ -117,6 +118,15 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    footer: {
+      message: '周嘉荣讲中医 - 中医学习平台',
+      copyright: 'Copyright © 2023-present'
+    },
+
+    search: {
+      provider: 'local'
+    }
   }
 })
