@@ -101,7 +101,7 @@ export default defineConfig({
           { text: '炙绳笔记', link: '/addendum_z_jiusheng' },
           { text: '生气的害处', link: '/addendum_shengqi' },
           { text: '按摩经', link: '/addendum_anmojing' },
-          { text: '宗筋疗法AI笔记', link: '/meeting/1' }
+          { text: '宗筋疗法AI笔记', link: '/addendum_AI' }
         ]
       },
       {
